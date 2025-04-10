@@ -1,4 +1,5 @@
 using CleanArc.Api;
+using CleanArc.Api.Endpoints;
 using CleanArc.Application;
 using CleanArc.Infrastructure;
 
@@ -10,5 +11,7 @@ builder.Services
             .AddInfrastructure(builder.Configuration);
             
 var app = builder.Build();
+
+app.MapUserEndpoints();
 
 app.Run();

@@ -13,5 +13,4 @@ builder.Services
 var app = builder.Build();
 
 app.MapUserEndpoints();
-
 app.Run();

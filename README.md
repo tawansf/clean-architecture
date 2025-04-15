@@ -1,5 +1,5 @@
 
-# 🧱 Clean Architecture - CQRS + MediatR
+# 🧱 Clean Architecture
 
 Este projeto é um boilerplate (whitelabel) baseado nos princípios da **Clean Architecture**, utilizando **CQRS** e o padrão **MediatR** para separação de responsabilidades e escalabilidade. Ideal para projetos que buscam um ponto de partida sólido e bem estruturado.
 
@@ -9,8 +9,6 @@ Este projeto é um boilerplate (whitelabel) baseado nos princípios da **Clean A
 
 - .NET 9
 - Clean Architecture
-- CQRS (Command Query Responsibility Segregation)
-- MediatR
 - Entity Framework Core
 - FluentValidation
 - Swagger
@@ -24,12 +22,12 @@ Este projeto é um boilerplate (whitelabel) baseado nos princípios da **Clean A
 
 ```
 📦 CleanArchitecture
-├── 📂 CleanArc.API             → Camada de apresentação (Controllers, Middlewares, etc.)
-├── 📂 CleanArc.Application     → Camada de aplicação (CQRS: Commands, Queries, Handlers)
-├── 📂 CleanArc.Domain          → Camada de domínio (Entidades, Interfaces, Enums, Validations)
-├── 📂 CleanArc.Infrastructure  → Camada de infraestrutura (Repositórios, Persistência, Integrações)
-├── 📂 CleanArc.Shared          → Recursos compartilhados entre camadas (helpers, constantes, exceções)
-├── 📂 CleanArc.Tests           → Testes unitários e de integração
+├── 📂 CleanArc.API             → Camada de apresentação (Controllers, Middlewares, Filtros).
+├── 📂 CleanArc.Application     → Casos de uso, DTOs, interfaces de serviços de aplicação.
+├── 📂 CleanArc.Domain          → Entidades, ValueObjects, Interfaces, Enums, Validações.
+├── 📂 CleanArc.Infrastructure  → Implementações de repositórios, serviços externos, persistência.
+├── 📂 CleanArc.Shared          → Helpers, constantes, exceções e base classes reutilizáveis.
+├── 📂 CleanArc.Tests           → Testes unitários e testes de integração.
 ```
 
 ---
@@ -46,5 +44,5 @@ Este projeto é um boilerplate (whitelabel) baseado nos princípios da **Clean A
 
 ## 🤝 Contribuições
 
-Sinta-se livre para abrir uma issue ou um pull request.
+Sinta-se livre para abrir uma issue ou um pull request 🙏
 

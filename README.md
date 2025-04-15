@@ -1,7 +1,7 @@
 
 # 🧱 Clean Architecture
 
-Este projeto é um boilerplate (whitelabel) baseado nos princípios da **Clean Architecture**, utilizando **CQRS** e o padrão **MediatR** para separação de responsabilidades e escalabilidade. Ideal para projetos que buscam um ponto de partida sólido e bem estruturado.
+Este projeto é um boilerplate (whitelabel) baseado nos princípios da **Clean Architecture**. Ideal para projetos que buscam um ponto de partida sólido e bem estruturado.
 
 ---
 
